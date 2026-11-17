@@ -11,6 +11,7 @@
 <link rel="preload" as="image" href="img/hero-m-600.webp" imagesrcset="img/hero-m-480.webp 480w, img/hero-m-600.webp 600w, img/hero-m-720.webp 720w" imagesizes="100vw" media="(max-width:760px)" fetchpriority="high">
 <link rel="preload" as="image" href="img/hero-a-960.webp" imagesrcset="img/hero-a-640.webp 640w, img/hero-a-960.webp 960w, img/hero-a-1300.webp 1300w" imagesizes="50vw" media="(min-width:761px)" fetchpriority="high">
 <link rel="preload" as="font" type="font/woff2" href="fonts/jost-rdzen.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/jost-pl.woff2" crossorigin>
 <style>
 @font-face{font-family:Jost;font-weight:300 700;font-display:swap;src:url(fonts/jost-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2026,U+20AC}
 @font-face{font-family:Jost;font-weight:300 700;font-display:swap;src:url(fonts/jost-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
@@ -58,6 +59,7 @@ p{margin:0}
 .hero{position:relative;overflow:hidden;background:#24211E;color:#fff;display:flex;flex-direction:column;justify-content:flex-end;min-height:calc(100svh - var(--hh))}
 .hero .ph{position:absolute;inset:0;display:grid}
 .hero .ph img{width:100%;height:100%;object-fit:cover}
+.hero .ph picture{display:block;min-width:0;min-height:0}
 .hero .ph .b{display:none}
 .hero::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none}
 .hero .txt{position:relative;z-index:2;width:var(--w);margin:0 auto}
@@ -309,7 +311,7 @@ footer p{line-height:1.7}
       <source media="(max-width:760px)" srcset="img/hero-m-480.webp 480w, img/hero-m-600.webp 600w, img/hero-m-720.webp 720w" sizes="100vw" width="720" height="1243">
       <img src="img/hero-a-960.webp" srcset="img/hero-a-640.webp 640w, img/hero-a-960.webp 960w, img/hero-a-1300.webp 1300w" sizes="50vw" width="1300" height="1300" fetchpriority="high" alt="Realizacje Kontin: kuchnia ze spieków Marazzi i kamienna fasada Mall of Berlin">
     </picture>
-    <img class="b" src="img/hero-b-960.webp" srcset="img/hero-b-640.webp 640w, img/hero-b-960.webp 960w, img/hero-b-1300.webp 1300w" sizes="50vw" width="1300" height="1300" alt="Kamienna fasada i szklany dach pasażu Mall of Berlin przy Leipziger Platz">
+    <picture class="b"><source media="(max-width:760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="1" height="1"><img src="img/hero-b-960.webp" srcset="img/hero-b-640.webp 640w, img/hero-b-960.webp 960w, img/hero-b-1300.webp 1300w" sizes="50vw" width="1300" height="1300" alt="Kamienna fasada i szklany dach pasażu Mall of Berlin przy Leipziger Platz"></picture>
   </div>
   <div class="txt">
     <div>
