@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Kamień naturalny i spieki kwarcowe Kielce - hurtownia i zakład kamieniarski | Kontin</title>
+<meta name="description" content="Kontin, Kielce: hurtownia kamienia naturalnego i spieków kwarcowych oraz zakład kamieniarski od 1990 r. Blaty, łazienki, schody, tarasy i elewacje z granitu, kwarcytu, marmuru i spieków Marazzi, Dekton, Neolith. Tel. 41 361 28 74.">
+<meta name="theme-color" content="#0F1012">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="img/hero-m-640.webp" imagesrcset="img/hero-m-480.webp 480w, img/hero-m-640.webp 640w, img/hero-m-774.webp 774w" imagesizes="100vw" media="(max-width:760px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-a-960.webp" imagesrcset="img/hero-a-640.webp 640w, img/hero-a-960.webp 960w, img/hero-a-1300.webp 1300w" imagesizes="50vw" media="(min-width:761px)" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="fonts/jost-rdzen.woff2" crossorigin>
+<style>
+@font-face{font-family:Jost;font-weight:300 700;font-display:swap;src:url(fonts/jost-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2026,U+20AC}
+@font-face{font-family:Jost;font-weight:300 700;font-display:swap;src:url(fonts/jost-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Jost fb";src:local("Arial");size-adjust:96%;ascent-override:105%;descent-override:30%}
+/* kolory z logo: miedz litery K #E4A664 / #B88651 i czern obrysu #0A0704 */
+:root{--cu:#E4A664;--cu-d:#B88651;--cu-t:#8A5A22;--bk:#0A0704;--ink:#17191C;--mut:#54595F;--g:#F2F3F4;--line:#DCDFE2;--dk:#0F1012;--hh:78px;--f:12px;--w:min(calc(100vw - 32px),1760px);--F:Jost,"Jost fb",Arial,sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--hh);-webkit-text-size-adjust:100%}
+body{margin:0;font-family:var(--F);font-size:clamp(16.5px,.22vw + 15.5px,19.5px);line-height:1.6;color:var(--ink);background:#fff;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{margin:0;font-weight:600;line-height:1.08;letter-spacing:-.015em;color:var(--bk)}
+p{margin:0}
+.wrap{width:var(--w);margin:0 auto}
+.skip{position:absolute;left:-999px}.skip:focus{left:16px;top:8px;z-index:99;background:#fff;padding:8px 12px}
+/* motyw: faza - skosnie sciete krawedzie jak w literze K wykutej w kamieniu i na krawedzi blatu */
+.faz{clip-path:polygon(var(--f) 0,calc(100% - var(--f)) 0,100% var(--f),100% calc(100% - var(--f)),calc(100% - var(--f)) 100%,var(--f) 100%,0 calc(100% - var(--f)),0 var(--f))}
+.btn{--b:9px;display:inline-flex;align-items:center;gap:14px;min-height:56px;padding:0 28px;background:var(--cu);color:var(--bk);font:600 1.08rem/1 var(--F);text-decoration:none;border:0;cursor:pointer;transition:background .2s;clip-path:polygon(var(--b) 0,calc(100% - var(--b)) 0,100% var(--b),100% calc(100% - var(--b)),calc(100% - var(--b)) 100%,var(--b) 100%,0 calc(100% - var(--b)),0 var(--b))}
+.btn:hover{background:#EDB97F}
+.btn:focus-visible{outline:3px solid var(--bk);outline-offset:3px}
+.btn svg{width:18px;height:18px;flex:none;transition:transform .2s}
+.btn:hover svg{transform:translateX(3px)}
+.btn.c{background:var(--bk);color:#fff}.btn.c:hover{background:#2A2622}
+/* rowek dluta: dwie sciany fazy, jasna i ciemna miedz */
+.rowek{height:6px;background:linear-gradient(180deg,var(--cu) 50%,var(--cu-d) 50%)}
+/* naglowek */
+.top{position:sticky;top:0;z-index:50;background:#fff;transition:box-shadow .2s}
+.top.sc{box-shadow:0 1px 0 var(--line),0 6px 20px rgba(15,16,18,.07)}
+.top .wrap{display:flex;align-items:center;gap:24px;height:var(--hh)}
+.logo{display:flex;align-items:center;gap:12px;flex:none;text-decoration:none;color:var(--bk)}
+.logo img{height:46px;width:auto}
+.logo b{display:block;font:600 1.62rem/1 var(--F);letter-spacing:.08em}
+.logo small{display:block;margin-top:5px;font:500 .7rem/1 var(--F);color:var(--mut);letter-spacing:.01em}
+.menu{display:flex;align-items:center;gap:clamp(16px,1.6vw,34px);margin-left:auto;font:500 1.04rem/1 var(--F)}
+.menu a{text-decoration:none;color:var(--ink);padding:10px 0;position:relative}
+.menu a:hover{color:var(--cu-t)}
+.menu a.on{color:var(--bk)}
+.menu a.on::after{content:"";position:absolute;left:0;right:0;bottom:1px;height:4px;background:linear-gradient(180deg,var(--cu) 50%,var(--cu-d) 50%)}
+.tel{font:600 1.12rem/1 var(--F);color:var(--bk);text-decoration:none;white-space:nowrap}
+.tel small{display:block;font:400 .74rem/1.2 var(--F);color:var(--mut);margin-bottom:3px}
+.top .btn{min-height:48px;font-size:1rem;padding:0 22px}
+.burger{display:none;width:48px;height:48px;border:0;background:none;padding:12px;cursor:pointer}
+.burger span{display:block;height:2px;background:var(--bk);margin:6px 0;transition:transform .2s,opacity .2s}
+/* pierwszy ekran: dyptyk kuchnia + fasada Mall of Berlin, miedziana spoina miedzy plytami */
+.hero{position:relative;overflow:hidden;background:#24211E;color:#fff;display:flex;flex-direction:column;justify-content:flex-end;min-height:calc(100svh - var(--hh))}
+.hero .ph{position:absolute;inset:0;display:grid}
+.hero .ph img{width:100%;height:100%;object-fit:cover}
+.hero .ph .b{display:none}
+.hero::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none}
+.hero .txt{position:relative;z-index:2;width:var(--w);margin:0 auto}
+.hero h1{color:#fff;font-size:clamp(2.1rem,1rem + 2.45vw,4.2rem);line-height:1.04;letter-spacing:-.02em;text-wrap:balance}
+.hero .lead{margin-top:22px;font-size:clamp(1rem,.9rem + .35vw,1.3rem);line-height:1.5;color:#ECEAE7;max-width:50ch}
+.hero .akcja{display:flex;align-items:center;gap:18px 28px;flex-wrap:wrap;margin-top:34px}
+.hero .gdzie{font-size:.98rem;line-height:1.4;color:#E2DFDB}
+.hero .gdzie b{display:block;color:#fff;font-weight:600}
+.hero .pod{position:absolute;z-index:2;bottom:22px;font-size:.84rem;line-height:1.35;color:#D9D5D0}
+@media (min-width:761px){
+  :root{--w:min(calc(100vw - 64px),1880px)}
+  .hero{min-height:clamp(620px,calc(100svh - var(--hh)),1400px)}
+  .hero .ph{grid-template-columns:1fr 1fr}
+  .hero .ph .b{display:block}
+  .hero .ph::after{content:"";position:absolute;top:0;bottom:0;left:calc(50% - 4px);width:8px;z-index:1;background:linear-gradient(90deg,var(--cu) 50%,var(--cu-d) 50%)}
+  .hero::before{background:linear-gradient(0deg,rgba(14,12,10,.86) 0%,rgba(14,12,10,.62) 30%,rgba(14,12,10,.12) 58%,rgba(14,12,10,0) 70%),linear-gradient(90deg,rgba(14,12,10,.42) 0%,rgba(14,12,10,.18) 40%,rgba(14,12,10,0) 50%)}
+  .hero .txt{padding:40px 0 clamp(78px,7vw,120px)}
+  .hero .txt>div{max-width:min(calc(50% - 48px),860px)}
+  .hero .pod.a{left:max(32px,calc((100vw - 1880px)/2))}
+  .hero .pod.b{left:calc(50% + 32px)}
+}
+@media (max-width:760px){
+  .hero .ph img{object-position:50% 40%}
+  .hero::before{background:linear-gradient(180deg,rgba(14,12,10,0) 0%,rgba(14,12,10,0) 14%,rgba(14,12,10,.58) 34%,rgba(14,12,10,.86) 56%,rgba(14,12,10,.95) 100%)}
+  .hero .txt{padding:120px 0 clamp(52px,8svh,72px)}
+  .hero h1{font-size:clamp(1.85rem,8.2vw,2.5rem)}
+  .hero .lead{margin-top:14px;font-size:clamp(.96rem,4vw,1.06rem);line-height:1.45}
+  .hero .akcja{margin-top:24px;gap:14px 20px}
+  .hero .btn{min-height:52px}
+  .hero .gdzie{font-size:.9rem}
+  .hero .pod.a{display:none}
+  .hero .pod.b{left:16px;bottom:16px;font-size:.78rem}
+}
+/* sekcje */
+section{padding:clamp(64px,6.5vw,128px) 0}
+.g{background:var(--g)}
+.h2{font-size:clamp(2rem,1.2rem + 2.2vw,3.6rem);max-width:22ch}
+.intro{margin-top:18px;color:var(--mut);max-width:62ch;font-size:1.05em}
+.shead{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:clamp(30px,3vw,52px)}
+/* zastosowania */
+.zast{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:clamp(16px,1.4vw,28px)}
+.zast article{display:flex;flex-direction:column}
+.zast .ph{aspect-ratio:4/5;overflow:hidden;background:var(--g)}
+.zast .ph img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.zast article:hover .ph img{transform:scale(1.04)}
+.zast h3{margin-top:20px;font-size:clamp(1.4rem,1.1rem + .55vw,1.85rem)}
+.zast p{margin-top:8px;color:var(--mut);font-size:.97em;line-height:1.5}
+.dol{margin-top:clamp(30px,3vw,52px);padding-top:clamp(24px,2.4vw,36px);display:flex;align-items:center;justify-content:space-between;gap:20px 40px;flex-wrap:wrap;border-top:2px solid var(--bk)}
+.dol p{max-width:72ch;font-size:1.05em}
+/* materialy */
+.mat{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(32px,5vw,110px);align-items:start}
+.mat .ph{position:sticky;top:calc(var(--hh) + 24px);overflow:hidden}
+.mat .ph img{width:100%;height:auto}
+.mat .ph p{position:absolute;left:var(--f);bottom:var(--f);background:#fff;padding:8px 13px;font-size:.84rem;font-weight:500;line-height:1.3}
+.tab{margin-top:clamp(28px,3vw,44px);border-top:6px solid;border-image:linear-gradient(180deg,var(--cu) 50%,var(--cu-d) 50%) 1}
+.tab div{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:8px 32px;padding:18px 0;border-bottom:1px solid var(--line)}
+.tab dt{font-weight:600;font-size:1.12em;line-height:1.3;color:var(--bk)}
+.tab dt small{display:block;margin-top:4px;font-weight:400;font-size:.8em;color:var(--mut)}
+.tab dd{margin:0;color:var(--mut);line-height:1.5}
+.mat .note{margin-top:26px;font-size:1.02em}
+.mat .note b{color:var(--bk)}
+.mat .btn{margin-top:28px}
+/* elewacje: mocna sekcja */
+.el{background:var(--dk);color:#CFCBC6}
+.el .h2{color:#fff}
+.el-gora{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,4vw,90px);align-items:end}
+.el-gora p+p{margin-top:16px}
+.el-gora .txt p{max-width:60ch}
+.el-gora .mocno{color:#fff;font-size:1.14em;line-height:1.5}
+.el-duze{margin-top:clamp(36px,3.6vw,60px);position:relative;overflow:hidden}
+.el-duze img{width:100%;aspect-ratio:2/1;object-fit:cover}
+.el-duze p,.gal span{position:absolute;left:0;bottom:0;max-width:calc(100% - 40px);background:#fff;color:var(--bk);padding:9px 14px;font-size:.88rem;font-weight:500;line-height:1.3}
+.el .shead{margin:clamp(40px,4vw,70px) 0 clamp(20px,2vw,30px)}
+.el h3{color:#fff;font-size:clamp(1.4rem,1.1rem + .6vw,1.9rem)}
+.el .inw{margin-top:clamp(28px,3vw,44px);padding-top:22px;border-top:1px solid rgba(255,255,255,.16);display:flex;gap:10px 28px;flex-wrap:wrap;align-items:baseline}
+.el .inw a{color:#fff;font-weight:600;text-decoration:none;font-size:1.12em}
+.el .inw a:hover{color:var(--cu)}
+/* tory przewijane palcem i mysza */
+.tor{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;-webkit-overflow-scrolling:touch;cursor:grab;user-select:none}
+.tor::-webkit-scrollbar{display:none}
+.tor.drag{cursor:grabbing;scroll-snap-type:none}
+.gal button{all:unset;flex:none;scroll-snap-align:start;cursor:zoom-in;position:relative;overflow:hidden;height:clamp(280px,24vw,480px)}
+.gal button:focus-visible{outline:3px solid var(--cu);outline-offset:-3px}
+.gal img{height:100%;width:auto;max-width:none;object-fit:cover;pointer-events:none;transition:transform .5s}
+.gal button:hover img{transform:scale(1.03)}
+.nav{display:flex;gap:10px}
+.nav button{--b:7px;width:54px;height:54px;border:0;background:var(--bk);cursor:pointer;display:grid;place-items:center;color:#fff;transition:background .2s,color .2s;clip-path:polygon(var(--b) 0,calc(100% - var(--b)) 0,100% var(--b),100% calc(100% - var(--b)),calc(100% - var(--b)) 100%,var(--b) 100%,0 calc(100% - var(--b)),0 var(--b))}
+.nav button:hover{background:var(--cu);color:var(--bk)}
+.el .nav button{background:#fff;color:var(--bk)}.el .nav button:hover{background:var(--cu)}
+.nav svg{width:20px;height:20px}
+/* wspolpraca */
+.wsp{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:clamp(32px,5vw,110px);align-items:center}
+.wsp .ph{overflow:hidden}
+.wsp .ph img{width:100%;height:auto}
+.kto{margin-top:clamp(26px,3vw,40px);display:grid;gap:0}
+.kto div{padding:20px 0 22px;border-top:2px solid var(--bk)}
+.kto h3{font-size:1.4rem}
+.kto p{margin-top:8px;color:var(--mut);font-size:.98em;max-width:62ch}
+.wsp .btn{margin-top:30px}
+/* kontakt */
+.kt{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:clamp(32px,4.5vw,100px);align-items:start}
+.kt-dane{margin-top:30px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 28px}
+.kt-dane>div{border-top:1px solid var(--line);padding-top:14px}
+.kt-dane small{display:block;color:var(--mut);font-size:.82rem;margin-bottom:4px}
+.kt-dane p{line-height:1.5}
+.kt-dane a{text-decoration:none;font-weight:600;color:var(--bk)}
+.kt-dane a:hover{color:var(--cu-t)}
+.kt-dane .duze{font-size:1.3rem}
+.mapa{margin-top:30px;position:relative;aspect-ratio:16/9;background:var(--g);overflow:hidden}
+.mapa iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.mapa .zas{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:20px;color:var(--mut);font-size:.95em}
+.mapa .zas button{margin-top:12px;font:600 1rem/1 var(--F);background:none;border:2px solid var(--bk);padding:12px 18px;cursor:pointer;color:var(--bk)}
+form{background:var(--g);padding:clamp(24px,3vw,48px)}
+form h3{font-size:1.75rem}
+form .sub{margin-top:8px;color:var(--mut);font-size:.95em}
+.pola{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:24px}
+.pola .c2{grid-column:1/-1}
+label{display:block;font-size:.9rem;font-weight:500;margin-bottom:6px;color:var(--ink)}
+input,select,textarea{width:100%;font:inherit;font-size:16px;padding:13px 14px;border:1px solid #B9BDC2;background:#fff;border-radius:0;color:var(--ink)}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--cu-d);outline-offset:0;border-color:var(--cu-d)}
+[aria-invalid=true]{border-color:#B3261E;outline-color:#B3261E}
+textarea{min-height:120px;resize:vertical}
+.zg{display:flex;gap:10px;align-items:flex-start;margin-top:16px;font-size:.86rem;color:var(--mut);font-weight:400}
+.zg input{width:20px;height:20px;flex:none;margin-top:2px}
+form .btn{margin-top:22px}
+#msg{margin-top:18px;padding:14px 16px;background:#fff;border-left:4px solid var(--cu-d);font-size:.95em}
+/* stopka */
+footer{background:var(--dk);color:#BDB9B4;padding:clamp(48px,4.5vw,80px) 0 28px;font-size:.95em}
+.st{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:28px}
+footer .logo{color:#fff}
+footer .logo small{color:#A9A5A0}
+footer h4{margin:0 0 12px;font-size:1.05rem;font-weight:600;line-height:1.2;color:#fff}
+footer a{text-decoration:none}footer a:hover{color:#fff}
+footer p{line-height:1.7}
+.st-dol{margin-top:40px;padding-top:20px;border-top:1px solid rgba(255,255,255,.12);display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;font-size:.85rem}
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+.mob{display:none}
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:90;background:rgba(15,16,18,.95);display:none;align-items:center;justify-content:center}
+.lb.on{display:flex}
+.lb figure{margin:0;display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;height:100%;padding:60px 70px}
+.lb img{max-width:100%;max-height:calc(100% - 40px);object-fit:contain}
+.lb figcaption{color:#ddd;margin-top:12px;font-size:.9rem;text-align:center}
+.lb button{position:absolute;background:rgba(255,255,255,.1);border:0;color:#fff;width:52px;height:52px;cursor:pointer;display:grid;place-items:center}
+.lb button:hover{background:rgba(255,255,255,.22)}
+.lb svg{width:22px;height:22px}
+.lb .x{top:12px;right:12px}.lb .p{left:12px;top:50%;margin-top:-26px}.lb .n{right:12px;top:50%;margin-top:-26px}
+/* cookies */
+.cookies{position:fixed;left:16px;right:16px;bottom:16px;z-index:80;max-width:560px;background:#fff;border:1px solid var(--line);box-shadow:0 10px 30px rgba(0,0,0,.15);padding:14px 16px;display:flex;gap:12px;align-items:center;flex-wrap:wrap;font-size:.84rem;line-height:1.45}
+.cookies[hidden]{display:none}
+.cookies p{flex:1 1 260px}
+.cookies button{font:600 .95rem/1 var(--F);padding:11px 14px;border:2px solid var(--bk);background:#fff;cursor:pointer;color:var(--bk)}
+.cookies button.t{background:var(--bk);color:#fff}
+@media (min-width:2100px){.zast{gap:32px}}
+@media (max-width:1280px){
+  .zast{grid-template-columns:repeat(3,minmax(0,1fr));gap:40px 24px}
+}
+@media (max-width:1240px){
+  .menu{gap:18px;font-size:1rem}
+  .top .tel{display:none}
+}
+@media (max-width:980px){
+  .mat,.wsp,.kt,.el-gora{grid-template-columns:minmax(0,1fr)}
+  .mat .ph{position:relative;top:0;max-width:560px}
+  .st{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .st>div:first-child{grid-column:1/-1}
+}
+@media (max-width:1060px){
+  .burger{display:block;margin-left:auto}
+  .top .wrap{gap:12px}
+  .top .wrap>.btn{display:none}
+  .menu{position:fixed;top:var(--hh);left:0;right:0;flex-direction:column;align-items:stretch;gap:0;background:#fff;padding:8px 16px 24px;border-top:1px solid var(--line);box-shadow:0 20px 30px rgba(0,0,0,.12);transform:translateY(-8px);opacity:0;visibility:hidden;transition:.2s;font-size:1.2rem}
+  .menu a{padding:15px 4px;border-bottom:1px solid var(--line)}
+  .menu a.on::after{display:none}
+  .menu a.on{color:var(--cu-t)}
+  .menu .btn{margin-top:18px;justify-content:center;border:0;color:var(--bk);padding:0 24px}
+  .top.open .menu{transform:none;opacity:1;visibility:visible}
+  .top.open .burger span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+  .top.open .burger span:nth-child(2){opacity:0}
+  .top.open .burger span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+  .mtel{display:grid;place-items:center;width:46px;height:46px;border:2px solid var(--bk);color:var(--bk);margin-left:auto}
+  .mtel svg{width:20px;height:20px}
+  .mtel+.burger{margin-left:0}
+}
+@media (min-width:1061px){.mtel,.menu .mb{display:none}}
+@media (max-width:760px){
+  :root{--hh:66px;--f:9px}
+  .logo img{height:38px}
+  .logo b{font-size:1.32rem}
+  .logo small{font-size:.6rem}
+  .shead{flex-direction:column;align-items:flex-start}
+  .shead .nav{display:none}
+  .zast{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;margin-right:-16px;padding-right:16px}
+  .zast::-webkit-scrollbar{display:none}
+  .zast article{flex:none;width:72%;scroll-snap-align:start}
+  .tab div{grid-template-columns:minmax(0,1fr);gap:4px}
+  .kt-dane{grid-template-columns:minmax(0,1fr)}
+  .gal button{height:300px;max-width:calc(100vw - 56px)}
+  .el-duze img{aspect-ratio:3/2}
+  .pola{grid-template-columns:minmax(0,1fr)}
+  .mob{display:grid;grid-template-columns:1fr 1.3fr;position:fixed;left:0;right:0;bottom:0;z-index:60;transform:translateY(100%);transition:transform .25s;box-shadow:0 -6px 20px rgba(0,0,0,.12)}
+  .mob.widac{transform:none}
+  .mob a{display:flex;align-items:center;justify-content:center;gap:8px;min-height:56px;font:600 1.05rem/1 var(--F);text-decoration:none;background:#fff;color:var(--bk)}
+  .mob a.r{background:var(--cu);color:var(--bk)}
+  .mob svg{width:18px;height:18px}
+  footer{padding-bottom:84px}
+  .cookies{left:12px;right:12px;bottom:12px}
+  .lb figure{padding:60px 12px}
+  .lb .p,.lb .n{top:auto;bottom:14px;margin:0}
+  .lb .p{left:calc(50% - 60px)}.lb .n{right:calc(50% - 60px)}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#zastosowania">Przejdź do treści</a>
+<header class="top" id="top">
+  <div class="wrap">
+    <a class="logo" href="#start" aria-label="Kontin, kamień naturalny i spieki kwarcowe - strona główna"><img src="img/k.svg" width="44" height="46" alt=""><span><b>KONTIN</b><small>polski kunszt | europejski wymiar</small></span></a>
+    <nav class="menu" id="menu" aria-label="Menu główne">
+      <a href="#zastosowania">Wnętrza i ogród</a>
+      <a href="#materialy">Materiały</a>
+      <a href="#elewacje">Elewacje</a>
+      <a href="#realizacje">Realizacje</a>
+      <a href="#wspolpraca">Dla architektów</a>
+      <a href="#kontakt">Kontakt</a>
+      <a class="btn mb" href="#kontakt">Zamów wycenę</a>
+    </nav>
+    <a class="tel" href="tel:+48413612874"><small>Zadzwoń</small>41 361 28 74</a>
+    <a class="btn" href="#kontakt">Zamów wycenę</a>
+    <a class="mtel" href="tel:+48413612874" aria-label="Zadzwoń: 41 361 28 74"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M5 3h4l1.5 5-2.5 1.5a11 11 0 0 0 6.5 6.5l1.5-2.5 5 1.5v4a2 2 0 0 1-2 2A17 17 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg></a>
+    <button class="burger" id="burger" type="button" aria-label="Otwórz menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="start" style="padding:0">
+  <div class="ph">
+    <picture>
+      <source media="(max-width:760px)" srcset="img/hero-m-480.webp 480w, img/hero-m-640.webp 640w, img/hero-m-774.webp 774w" sizes="100vw" width="774" height="1336">
+      <img src="img/hero-a-960.webp" srcset="img/hero-a-640.webp 640w, img/hero-a-960.webp 960w, img/hero-a-1300.webp 1300w" sizes="50vw" width="1300" height="1300" fetchpriority="high" alt="Realizacje Kontin: kuchnia ze spieków Marazzi i kamienna fasada Mall of Berlin">
+    </picture>
+    <img class="b" src="img/hero-b-960.webp" srcset="img/hero-b-640.webp 640w, img/hero-b-960.webp 960w, img/hero-b-1300.webp 1300w" sizes="50vw" width="1300" height="1300" alt="Kamienna fasada i szklany dach pasażu Mall of Berlin przy Leipziger Platz">
+  </div>
+  <div class="txt">
+    <div>
+      <h1>Kamień naturalny i spieki kwarcowe w Kielcach: od blatu w kuchni po fasadę w Berlinie</h1>
+      <p class="lead">Od 1990 roku obrabiamy kamień. W hurtowni zobaczysz na żywo granity, kwarcyty, marmury i spieki kwarcowe, a nasi kamieniarze wykonają z nich blat, łazienkę, schody, taras albo elewację.</p>
+      <div class="akcja">
+        <a class="btn" href="#kontakt">Zamów wycenę <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg></a>
+        <p class="gdzie"><b>Hurtownia i zakład kamieniarski</b>ul. Ściegiennego 252, Kielce</p>
+      </div>
+    </div>
+  </div>
+  <p class="pod a">Kuchnia ze spieków Marazzi Capraia i Neolith Calacatta Silk</p>
+  <p class="pod b">Mall of Berlin, Leipziger Platz: kamienna fasada Kontin</p>
+</section>
+
+<section id="zastosowania">
+  <div class="wrap">
+    <div class="shead">
+      <div>
+        <h2 class="h2">Kamień w domu i wokół niego</h2>
+        <p class="intro">Doradzimy, który materiał najlepiej sprawdzi się w Twoim projekcie, i wykonamy go starannie, z dbałością o detale. Ważne jest każde ziarnko piasku.</p>
+      </div>
+    </div>
+    <div class="zast" data-tor id="tor-zast">
+      <article>
+        <div class="ph faz"><img src="img/w-kuchnia-400.webp" srcset="img/w-kuchnia-400.webp 400w, img/w-kuchnia-600.webp 600w, img/w-kuchnia-800.webp 800w" sizes="(max-width:760px) 72vw, (max-width:1280px) 33vw, 20vw" width="800" height="1001" loading="lazy" alt="Kuchnia z blatami i ścianą roboczą z granitu Jurassic Grey"></div>
+        <h3>Kuchnia</h3>
+        <p>Blaty, wyspy, podłogi i ściana robocza z kamienia, spieku albo konglomeratu.</p>
+      </article>
+      <article>
+        <div class="ph faz"><img src="img/w-lazienka-400.webp" srcset="img/w-lazienka-400.webp 400w, img/w-lazienka-600.webp 600w, img/w-lazienka-800.webp 800w" sizes="(max-width:760px) 72vw, (max-width:1280px) 33vw, 20vw" width="800" height="1000" loading="lazy" alt="Łazienka z kamienia naturalnego z wolnostojącą wanną"></div>
+        <h3>Łazienka</h3>
+        <p>Blaty łazienkowe, posadzki i okładziny ścian, także z marmuru i onyksu.</p>
+      </article>
+      <article>
+        <div class="ph faz"><img src="img/w-salon-400.webp" srcset="img/w-salon-400.webp 400w, img/w-salon-600.webp 600w, img/w-salon-800.webp 800w" sizes="(max-width:760px) 72vw, (max-width:1280px) 33vw, 20vw" width="800" height="999" loading="lazy" alt="Salon z kominkiem i ścianą ze spieku kwarcowego Marazzi Capraia"></div>
+        <h3>Salon</h3>
+        <p>Kominki, okładziny ścienne i posadzki, które stają się ozdobą wnętrza.</p>
+      </article>
+      <article>
+        <div class="ph faz"><img src="img/w-schody-400.webp" srcset="img/w-schody-400.webp 400w, img/w-schody-600.webp 600w, img/w-schody-800.webp 800w" sizes="(max-width:760px) 72vw, (max-width:1280px) 33vw, 20vw" width="800" height="1000" loading="lazy" alt="Schody wewnętrzne z kamienia przygotowane przez Kontin"></div>
+        <h3>Schody</h3>
+        <p>Wewnętrzne i zewnętrzne: marmur, granit, trawertyn i konglomerat.</p>
+      </article>
+      <article>
+        <div class="ph faz"><img src="img/w-tarasy-400.webp" srcset="img/w-tarasy-400.webp 400w, img/w-tarasy-600.webp 600w, img/w-tarasy-800.webp 800w" sizes="(max-width:760px) 72vw, (max-width:1280px) 33vw, 20vw" width="800" height="1000" loading="lazy" alt="Taras z kamienia naturalnego przy domu"></div>
+        <h3>Tarasy</h3>
+        <p>Kamień odporny na warunki atmosferyczne, dobrany do miejsca i sposobu użytkowania.</p>
+      </article>
+    </div>
+    <div class="dol">
+      <p>Pomagamy na każdym etapie: doradzimy, jaki kamień dobrać już przy planowaniu, a potem wykonamy wspólnie stworzony projekt.</p>
+      <a class="btn" href="#kontakt">Zamów wycenę <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<section class="g" id="materialy">
+  <div class="wrap mat">
+    <div class="ph faz"><img src="img/mat-500.webp" srcset="img/mat-500.webp 500w, img/mat-800.webp 800w, img/mat-1100.webp 1100w" sizes="(max-width:980px) 92vw, 36vw" width="1100" height="1375" loading="lazy" alt="Kuchnia z blatem i ścianą z granitu Nero Assoluto Zimbabwe, podświetloną listwą"><p>Granit Nero Assoluto Zimbabwe</p></div>
+    <div>
+      <h2 class="h2">Materiały i producenci</h2>
+      <p class="intro">Kamienie z pięciu kontynentów, od USA, przez Brazylię, Hiszpanię, Austrię i Angolę, po Chiny. Nie każdy sprawdza się wszędzie tak samo: liczy się twardość, odporność na warunki atmosferyczne i plastyczność. Pomożemy wybrać ten najlepszy.</p>
+      <dl class="tab">
+        <div><dt>Granit</dt><dd>Wnętrza i elewacje, wszystkie zastosowania</dd></div>
+        <div><dt>Kwarcyt<small>Taj Mahal, Cristallo, Mont Blanc, Negresco</small></dt><dd>Wnętrza i elewacje, wszystkie zastosowania</dd></div>
+        <div><dt>Marmur</dt><dd>Blaty łazienkowe, posadzki, okładziny ścienne, elementy dekoracyjne</dd></div>
+        <div><dt>Onyks</dt><dd>Elementy dekoracyjne, okładziny ścienne</dd></div>
+        <div><dt>Piaskowiec, wapień, trawertyn</dt><dd>Elewacje, rzeźby, posadzki</dd></div>
+        <div><dt>Spieki kwarcowe<small>Marazzi, Dekton, Neolith, Laminam, Paradyż</small></dt><dd>Wnętrza i elewacje: blaty, posadzki, okładziny</dd></div>
+        <div><dt>Konglomeraty kwarcowe<small>Silestone, Technistone, Avant Quartz</small></dt><dd>Blaty, posadzki, okładziny ścienne, dekoracje</dd></div>
+        <div><dt>Bagnara Kitchen Selection</dt><dd>Wyselekcjonowana kolekcja granitów i kwarcytów do kuchni</dd></div>
+        <div><dt>Niewidoczne indukcje<small>Invisacook (230 V), NOVY Undercover (380 V)</small></dt><dd>Płyta indukcyjna montowana bezpośrednio pod kamiennym blatem</dd></div>
+      </dl>
+      <p class="note"><b>Kontin jest oficjalnym dystrybutorem Marazzi.</b> Przyjedź do hurtowni w Kielcach: obejrzyj, porównaj, dotknij i wybierz kamień, który najlepiej sprawdzi się w Twoim projekcie.</p>
+      <a class="btn c" href="#kontakt">Godziny i dojazd <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<section class="el" id="elewacje">
+  <div class="wrap">
+    <div class="el-gora">
+      <h2 class="h2">Polski kunszt, europejski wymiar</h2>
+      <div class="txt">
+        <p class="mocno">Zaczynaliśmy w 1990 roku od niewielkiego zakładu w Kielcach: obróbka kamienia, kamieniarstwo budowlane i artystyczne. Rok później ruszyliśmy z pracami w Niemczech, potem w Luksemburgu i Szwajcarii, dziś także w Szwecji i Austrii.</p>
+        <p>Wykonujemy kamienne elewacje, również z elementami rzeźbionymi, renowacje zabytków i detale architektoniczne. Elementy przygotowujemy we własnych halach produkcyjnych z nowoczesnym parkiem maszynowym.</p>
+      </div>
+    </div>
+    <div class="el-duze faz"><img src="img/el-main-1100.webp" srcset="img/el-main-700.webp 700w, img/el-main-1100.webp 1100w, img/el-main-1600.webp 1600w" sizes="(max-width:1880px) 96vw, 1880px" width="1600" height="800" loading="lazy" alt="Fasada zachodnia Landtagu Brandenburgii w Poczdamie"><p>Landtag Brandenburgii, fasada zachodnia, Poczdam</p></div>
+    <div class="shead">
+      <h3>Wybrane realizacje w Niemczech</h3>
+      <div class="nav" data-nav="tor-el">
+        <button type="button" data-k="-1" aria-label="Poprzednie zdjęcia"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+        <button type="button" data-k="1" aria-label="Następne zdjęcia"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+      </div>
+    </div>
+    <div class="tor gal" id="tor-el" data-tor>
+      <button type="button" data-lb="el" data-src="img/g-fried-xl.webp" data-cap="Friedrichsbrücke, Wyspa Muzeów, Berlin"><img src="img/g-fried.webp" width="840" height="560" loading="lazy" alt="Friedrichsbrücke, Wyspa Muzeów, Berlin"><span>Friedrichsbrücke, Wyspa Muzeów, Berlin</span></button>
+      <button type="button" data-lb="el" data-src="img/g-barb-xl.webp" data-cap="Muzeum Barberini, Poczdam"><img src="img/g-barb.webp" width="792" height="560" loading="lazy" alt="Muzeum Barberini, Poczdam"><span>Muzeum Barberini, Poczdam</span></button>
+      <button type="button" data-lb="el" data-src="img/g-messe-xl.webp" data-cap="Messehaus am Markt, Lipsk"><img src="img/g-messe.webp" width="790" height="560" loading="lazy" alt="Messehaus am Markt, Lipsk"><span>Messehaus am Markt, Lipsk</span></button>
+      <button type="button" data-lb="el" data-src="img/g-motel-xl.webp" data-cap="Motel One, Grimmaische Str., Lipsk"><img src="img/g-motel.webp" width="788" height="560" loading="lazy" alt="Motel One, Grimmaische Str., Lipsk"><span>Motel One, Grimmaische Str., Lipsk</span></button>
+      <button type="button" data-lb="el" data-src="img/g-ubahn-xl.webp" data-cap="Stacja metra Leipzig-Markt, Lipsk"><img src="img/g-ubahn.webp" width="838" height="560" loading="lazy" alt="Stacja metra Leipzig-Markt, Lipsk"><span>Stacja metra Leipzig-Markt, Lipsk</span></button>
+      <button type="button" data-lb="el" data-src="img/g-bayer-xl.webp" data-cap="Stacja metra Bayerischer Hof, Lipsk"><img src="img/g-bayer.webp" width="838" height="560" loading="lazy" alt="Stacja metra Bayerischer Hof, Lipsk"><span>Stacja metra Bayerischer Hof, Lipsk</span></button>
+      <button type="button" data-lb="el" data-src="img/g-merc-xl.webp" data-cap="Mercedes Platz, Mühlenstr. 13-19, Berlin"><img src="img/g-merc.webp" width="840" height="560" loading="lazy" alt="Mercedes Platz, Mühlenstr. 13-19, Berlin"><span>Mercedes Platz, Mühlenstr. 13-19, Berlin</span></button>
+      <button type="button" data-lb="el" data-src="img/g-bke-xl.webp" data-cap="BKE Geschäftshaus, Berlin-Köpenick"><img src="img/g-bke.webp" width="840" height="560" loading="lazy" alt="BKE Geschäftshaus, Berlin-Köpenick"><span>BKE Geschäftshaus, Berlin-Köpenick</span></button>
+      <button type="button" data-lb="el" data-src="img/g-mark-xl.webp" data-cap="Dom mieszkalno-użytkowy, Markgrafenstr. 35, Berlin"><img src="img/g-mark.webp" width="838" height="560" loading="lazy" alt="Dom mieszkalno-użytkowy, Markgrafenstr. 35, Berlin"><span>Dom mieszkalno-użytkowy, Markgrafenstr. 35, Berlin</span></button>
+      <button type="button" data-lb="el" data-src="img/g-hofe-xl.webp" data-cap="Galeria handlowa Höfe am Brühl, Lipsk"><img src="img/g-hofe.webp" width="838" height="560" loading="lazy" alt="Galeria handlowa Höfe am Brühl, Lipsk"><span>Galeria handlowa Höfe am Brühl, Lipsk</span></button>
+    </div>
+    <div class="inw"><span>Inwestycje i elewacje:</span><a href="tel:+48510116004">Dariusz, 510 116 004</a><a href="mailto:kontin@kontin.com.pl">kontin@kontin.com.pl</a></div>
+  </div>
+</section>
+
+<section id="realizacje">
+  <div class="wrap">
+    <div class="shead">
+      <div>
+        <h2 class="h2">Realizacje we wnętrzach</h2>
+        <p class="intro">Pod każdym zdjęciem materiał blatu albo okładziny. Przesuń palcem lub myszą, kliknij, żeby powiększyć.</p>
+      </div>
+      <div class="nav" data-nav="tor-wn">
+        <button type="button" data-k="-1" aria-label="Poprzednie zdjęcia"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+        <button type="button" data-k="1" aria-label="Następne zdjęcia"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+      </div>
+    </div>
+    <div class="tor gal" id="tor-wn" data-tor>
+      <button type="button" data-lb="wn" data-src="img/g-capraia-xl.webp" data-cap="Kuchnia: spieki Marazzi Capraia i Gris du Gent, Neolith Calacatta Silk"><img src="img/g-capraia.webp" width="840" height="560" loading="lazy" alt="Kuchnia: spieki Marazzi Capraia i Gris du Gent, Neolith Calacatta Silk"><span>Kuchnia: spieki Marazzi Capraia i Gris du Gent, Neolith Calacatta Silk</span></button>
+      <button type="button" data-lb="wn" data-src="img/g-zrg24-xl.webp" data-cap="Technistone Crystal Absolute White i spiek Marazzi Concrete Look White"><img src="img/g-zrg24.webp" width="373" height="560" loading="lazy" alt="Technistone Crystal Absolute White i spiek Marazzi Concrete Look White"><span>Technistone Crystal Absolute White i spiek Marazzi Concrete Look White</span></button>
+      <button type="button" data-lb="wn" data-src="img/g-statuario-xl.webp" data-cap="Spiek kwarcowy Marazzi Statuario"><img src="img/g-statuario.webp" width="838" height="560" loading="lazy" alt="Spiek kwarcowy Marazzi Statuario"><span>Spiek kwarcowy Marazzi Statuario</span></button>
+      <button type="button" data-lb="wn" data-src="img/g-elegant-xl.webp" data-cap="Spiek Marazzi Elegant Black lux i Marble Look Statuario"><img src="img/g-elegant.webp" width="840" height="560" loading="lazy" alt="Spiek Marazzi Elegant Black lux i Marble Look Statuario"><span>Spiek Marazzi Elegant Black lux i Marble Look Statuario</span></button>
+      <button type="button" data-lb="wn" data-src="img/g-jurassic-xl.webp" data-cap="Granit Jurassic Grey"><img src="img/g-jurassic.webp" width="840" height="560" loading="lazy" alt="Granit Jurassic Grey"><span>Granit Jurassic Grey</span></button>
+      <button type="button" data-lb="wn" data-src="img/g-zeus-xl.webp" data-cap="Konglomerat Silestone Bianco Zeus"><img src="img/g-zeus.webp" width="840" height="560" loading="lazy" alt="Konglomerat Silestone Bianco Zeus"><span>Konglomerat Silestone Bianco Zeus</span></button>
+      <button type="button" data-lb="wn" data-src="img/g-panorama-xl.webp" data-cap="Spiek kwarcowy Marazzi Statuario, satyna"><img src="img/g-panorama.webp" width="837" height="560" loading="lazy" alt="Spiek kwarcowy Marazzi Statuario, satyna"><span>Spiek kwarcowy Marazzi Statuario, satyna</span></button>
+      <button type="button" data-lb="wn" data-src="img/g-dsc6971-xl.webp" data-cap="Spiek kwarcowy Marazzi Elegant Black, satyna"><img src="img/g-dsc6971.webp" width="840" height="560" loading="lazy" alt="Spiek kwarcowy Marazzi Elegant Black, satyna"><span>Spiek kwarcowy Marazzi Elegant Black, satyna</span></button>
+      <button type="button" data-lb="wn" data-src="img/g-inalco-xl.webp" data-cap="Spiek kwarcowy Inalco Silk Bianco Abujardo"><img src="img/g-inalco.webp" width="840" height="560" loading="lazy" alt="Spiek kwarcowy Inalco Silk Bianco Abujardo"><span>Spiek kwarcowy Inalco Silk Bianco Abujardo</span></button>
+      <button type="button" data-lb="wn" data-src="img/g-silva-xl.webp" data-cap="Technistone Crystal Calacatta Silva, poler"><img src="img/g-silva.webp" width="373" height="560" loading="lazy" alt="Technistone Crystal Calacatta Silva, poler"><span>Technistone Crystal Calacatta Silva, poler</span></button>
+    </div>
+  </div>
+</section>
+
+<section class="g" id="wspolpraca">
+  <div class="wrap wsp">
+    <div class="ph faz"><img src="img/wsp-600.webp" srcset="img/wsp-600.webp 600w, img/wsp-900.webp 900w, img/wsp-1200.webp 1200w" sizes="(max-width:980px) 92vw, 46vw" width="1200" height="960" loading="lazy" alt="Nowoczesna kuchnia z kamienną wyspą o wyrazistym użyleniu"></div>
+    <div>
+      <h2 class="h2">Jeśli projektujesz, uwzględnij nas w swoich planach</h2>
+      <p class="intro">Zapraszamy architektów, projektantów, studia meblowe, konserwatorów zabytków i każdego, kto chce pracować z kamieniem naturalnym.</p>
+      <div class="kto">
+        <div><h3>Architekci</h3><p>Kamienne elewacje, schody i posadzki w biurowcach, osiedlach i obiektach mixed-use. Podpowiemy, który kamień pasuje do koncepcji, i pomożemy ją zrealizować.</p></div>
+        <div><h3>Projektanci wnętrz</h3><p>Przyjedź, obejrzyj i wybierz konkretną płytę do projektowanego wnętrza. Zaprojektowane przez Ciebie elementy wykonamy u nas.</p></div>
+        <div><h3>Studia meblowe</h3><p>Blaty, wykończenia i całe fronty z kamienia do kuchni, łazienek i salonów. Doradzimy przy doborze i na etapie realizacji zamówienia.</p></div>
+      </div>
+      <a class="btn" href="#kontakt">Napisz do nas <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<section id="kontakt">
+  <div class="wrap kt">
+    <div>
+      <h2 class="h2">Zamów wycenę albo przyjedź do hurtowni</h2>
+      <p class="intro">Napisz, co chcesz wykonać i z jakiego materiału. Podaj wymiary, jeśli je znasz, a odpiszemy z wyceną.</p>
+      <div class="kt-dane">
+        <div><small>Adres</small><p class="duze"><strong>ul. Ściegiennego 252<br>25-116 Kielce</strong></p></div>
+        <div><small>Godziny otwarcia</small><p>pon. i śr. 8:00-18:00<br>wt., czw., pt. 8:00-16:00<br>sob. 9:00-14:00</p></div>
+        <div><small>Biuro</small><p><a class="duze" href="tel:+48413612874">41 361 28 74</a><br><a href="tel:+48413622484">41 362 24 84</a><br><a href="mailto:kontin@kontin.com.pl">kontin@kontin.com.pl</a></p></div>
+        <div><small>Dział handlowy</small><p>Marta Adamczyk <a href="tel:+48500861579">500 861 579</a><br>Izabela Kubus <a href="tel:+48515765633">515 765 633</a><br><a href="mailto:sprzedaz@kontin.com.pl">sprzedaz@kontin.com.pl</a></p></div>
+      </div>
+      <div class="mapa faz" id="mapa" data-src="https://www.google.com/maps?q=%C5%9Aciegiennego+252,+25-116+Kielce&amp;output=embed">
+        <div class="zas"><div>Mapa Google: ul. Ściegiennego 252, Kielce<br><button type="button" id="pokaz-mape">Pokaż mapę</button></div></div>
+      </div>
+    </div>
+    <form id="form" class="faz" novalidate>
+      <h3>Zapytanie o wycenę</h3>
+      <p class="sub">Wystarczy kilka zdań, resztę ustalimy w odpowiedzi.</p>
+      <div class="pola">
+        <div><label for="f-im">Imię i nazwisko</label><input id="f-im" type="text" autocomplete="name" required></div>
+        <div><label for="f-mi">Miejscowość</label><input id="f-mi" type="text" autocomplete="address-level2"></div>
+        <div><label for="f-em">E-mail</label><input id="f-em" type="email" autocomplete="email" required></div>
+        <div><label for="f-tel">Telefon</label><input id="f-tel" type="tel" autocomplete="tel"></div>
+        <div><label for="f-co">Co chcesz wykonać</label><select id="f-co"><option>Blat kuchenny lub wyspę</option><option>Łazienkę</option><option>Schody</option><option>Taras</option><option>Kominek lub okładzinę</option><option>Elewację</option><option>Inne</option></select></div>
+        <div><label for="f-ma">Materiał</label><select id="f-ma"><option>Jeszcze nie wiem, doradźcie</option><option>Granit</option><option>Kwarcyt</option><option>Marmur</option><option>Spiek kwarcowy</option><option>Konglomerat kwarcowy</option></select></div>
+        <div class="c2"><label for="f-wi">Wiadomość</label><textarea id="f-wi" placeholder="Np. blat w kształcie litery L, ok. 320 x 62 cm, z otworem na zlew" required></textarea></div>
+      </div>
+      <label class="zg"><input type="checkbox" required> Wyrażam zgodę na kontakt w sprawie zapytania.</label>
+      <button class="btn" type="submit">Wyślij zapytanie <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg></button>
+      <p id="msg" hidden>To podgląd strony, formularz niczego nie wysyła. Na docelowej stronie zapytanie trafi na kontin@kontin.com.pl.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="st">
+      <div><a class="logo" href="#start" aria-label="Kontin - do góry strony"><img src="img/k-biale.svg" width="44" height="46" alt=""><span><b>KONTIN</b><small>polski kunszt | europejski wymiar</small></span></a><p style="margin-top:18px">Hurtownia kamienia naturalnego i spieków kwarcowych oraz zakład kamieniarski w Kielcach.</p></div>
+      <div><h4>Kontakt</h4><p><a href="tel:+48413612874">41 361 28 74</a><br><a href="tel:+48413622484">41 362 24 84</a><br><a href="mailto:kontin@kontin.com.pl">kontin@kontin.com.pl</a></p></div>
+      <div><h4>Firma</h4><p>PPUH Kontin Sp. z o.o.<br>ul. Ściegiennego 252, 25-116 Kielce<br>NIP 657-008-22-16<br>KRS 0000171484</p></div>
+      <div><h4>Na skróty</h4><p><a href="#materialy">Materiały</a><br><a href="#elewacje">Elewacje</a><br><a href="#realizacje">Realizacje</a><br><a href="#start">Polityka prywatności</a></p></div>
+    </div>
+    <div class="st-dol"><span>© <span id="rok">2026</span> Kontin sp. z o.o.</span><a class="wylinka-badge" href="https://wylinka.pl/?utm_source=kontin.com.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a></div>
+  </div>
+</footer>
+
+<nav class="mob" id="mob" aria-label="Szybki kontakt">
+  <a href="tel:+48413612874"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M5 3h4l1.5 5-2.5 1.5a11 11 0 0 0 6.5 6.5l1.5-2.5 5 1.5v4a2 2 0 0 1-2 2A17 17 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg>Zadzwoń</a>
+  <a class="r" href="#kontakt">Zamów wycenę</a>
+</nav>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Powiększone zdjęcie">
+  <figure><img alt=""><figcaption></figcaption></figure>
+  <button class="x" type="button" aria-label="Zamknij"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"/></svg></button>
+  <button class="p" type="button" aria-label="Poprzednie"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+  <button class="n" type="button" aria-label="Następne"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+</div>
+
+<div class="cookies" id="cookies" hidden>
+  <p>Strona używa plików cookies tylko do wyświetlenia mapy Google. Szczegóły w polityce prywatności.</p>
+  <button type="button" data-c="0">Tylko niezbędne</button><button type="button" class="t" data-c="1">Akceptuję</button>
+</div>
+<script>(function(){var z=null;try{z=localStorage.getItem('kt-cookies')}catch(e){}if(z===null)document.getElementById('cookies').hidden=false})();</script>
+<script src="app.js" defer></script>
+</body>
+</html>
